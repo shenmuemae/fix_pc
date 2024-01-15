@@ -1,0 +1,162 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #ddd;
+}
+
+header {
+    background-color: #333;
+    color: #000000;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 35px 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    position: relative;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    padding: 10px 15px;
+    border: 2px solid #00CED1;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #00FA9A;
+}
+
+.login-signup {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.login-link, .signup-link {
+    margin-left: 20px;
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.login-link:hover, .signup-link:hover {
+    color: #ffffff;
+}
+
+.main-section {
+
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #000000;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid #00CED1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+input[type="submit"] {
+    background-color: #00CED1;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+input[type="submit"]:hover {
+    background-color: #00FA9A;
+}
+
+p {
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+a {
+    color: #61b9dc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+input:hover {
+    border-color: #ffffff;
+}
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.msg {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+.repair-form {
+    border: 2px solid #00CED1;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #e0ffff;
+
+}
+
